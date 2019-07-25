@@ -122,7 +122,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/asset/{aid}/auth-info/', 'GET',
@@ -229,7 +229,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/asset/{aid}/push/', 'GET',
@@ -336,7 +336,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/asset/{aid}/test/', 'GET',
@@ -451,7 +451,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/assets/', 'GET',
@@ -550,7 +550,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/auth-info/', 'DELETE',
@@ -657,7 +657,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/auth-info/', 'PATCH',
@@ -756,7 +756,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/auth-info/', 'GET',
@@ -863,7 +863,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/auth-info/', 'PUT',
@@ -970,7 +970,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/cmd-filter-rules/', 'GET',
@@ -1069,7 +1069,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/connective/', 'GET',
@@ -1168,7 +1168,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/', 'POST',
@@ -1275,7 +1275,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/', 'DELETE',
@@ -1374,7 +1374,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/', 'DELETE',
@@ -1489,7 +1489,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/', 'GET',
@@ -1588,7 +1588,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/', 'PATCH',
@@ -1695,7 +1695,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/', 'PATCH',
@@ -1794,7 +1794,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/push/', 'GET',
@@ -1893,7 +1893,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/', 'GET',
@@ -1992,7 +1992,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/', 'PUT',
@@ -2099,7 +2099,7 @@ class AssetsSystemUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/system-users/{id}/', 'PUT',

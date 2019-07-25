@@ -114,7 +114,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/', 'POST',
@@ -221,7 +221,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/', 'DELETE',
@@ -320,7 +320,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/{id}/', 'DELETE',
@@ -435,7 +435,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/', 'GET',
@@ -534,7 +534,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/', 'PATCH',
@@ -641,7 +641,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/{id}/', 'PATCH',
@@ -740,7 +740,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/{id}/', 'GET',
@@ -839,7 +839,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/', 'PUT',
@@ -946,7 +946,7 @@ class AssetsLabelsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/labels/{id}/', 'PUT',

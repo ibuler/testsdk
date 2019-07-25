@@ -114,7 +114,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/', 'POST',
@@ -213,7 +213,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{id}/', 'DELETE',
@@ -312,7 +312,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/', 'GET',
@@ -419,7 +419,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/admins/', 'POST',
@@ -526,7 +526,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/admins/{user_id}/', 'DELETE',
@@ -633,7 +633,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/admins/', 'GET',
@@ -740,7 +740,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/admins/{user_id}/', 'GET',
@@ -847,7 +847,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/users/', 'POST',
@@ -954,7 +954,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/users/{user_id}/', 'DELETE',
@@ -1061,7 +1061,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/users/', 'GET',
@@ -1168,7 +1168,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{org_id}/membership/users/{user_id}/', 'GET',
@@ -1275,7 +1275,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{id}/', 'PATCH',
@@ -1374,7 +1374,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{id}/', 'GET',
@@ -1481,7 +1481,7 @@ class OrgsOrgsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/orgs/v1/orgs/{id}/', 'PUT',

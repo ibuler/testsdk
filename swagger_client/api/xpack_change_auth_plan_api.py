@@ -122,7 +122,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/asset/add/', 'PATCH',
@@ -221,7 +221,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/asset/add/', 'GET',
@@ -328,7 +328,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/asset/add/', 'PUT',
@@ -435,7 +435,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/asset/remove/', 'PATCH',
@@ -534,7 +534,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/asset/remove/', 'GET',
@@ -641,7 +641,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/asset/remove/', 'PUT',
@@ -740,7 +740,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/', 'POST',
@@ -843,7 +843,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/', 'DELETE',
@@ -942,7 +942,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/', 'DELETE',
@@ -1041,7 +1041,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan-execution/', 'POST',
@@ -1148,7 +1148,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan-execution/', 'GET',
@@ -1255,7 +1255,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan-execution-subtask/', 'GET',
@@ -1362,7 +1362,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan-execution-subtask/{id}/', 'PATCH',
@@ -1469,7 +1469,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan-execution-subtask/{id}/', 'PUT',
@@ -1580,7 +1580,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/', 'GET',
@@ -1679,7 +1679,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/', 'PATCH',
@@ -1786,7 +1786,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/', 'PATCH',
@@ -1885,7 +1885,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/', 'GET',
@@ -1984,7 +1984,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/', 'PUT',
@@ -2091,7 +2091,7 @@ class XpackChangeAuthPlanApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/change_auth_plan/plan/{id}/', 'PUT',

@@ -106,7 +106,7 @@ class AssetsAssetUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/asset-users/auth-info/', 'GET',
@@ -205,7 +205,7 @@ class AssetsAssetUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/asset-users/', 'POST',
@@ -308,7 +308,7 @@ class AssetsAssetUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/asset-users/', 'GET',
@@ -407,7 +407,7 @@ class AssetsAssetUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/asset-users/{id}/', 'GET',
@@ -498,7 +498,7 @@ class AssetsAssetUsersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/asset-users/test-connective/', 'GET',

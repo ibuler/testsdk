@@ -51,9 +51,10 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+# Configure API key authorization: Bearer
+swagger_client.configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# swagger_client.configuration.api_key_prefix['Authorization'] = 'Bearer'
 # create an instance of the API class
 api_instance = swagger_client.ApplicationsRemoteAppsApi()
 id = 'id_example' # str | A UUID string identifying this 远程应用.
@@ -566,9 +567,11 @@ Class | Method | HTTP request | Description
 ## Documentation For Authorization
 
 
-## basic
+## Bearer
 
-- **Type**: HTTP basic authentication
+- **Type**: API key
+- **API key parameter name**: Authorization
+- **Location**: HTTP header
 
 
 ## Author

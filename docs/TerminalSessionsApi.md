@@ -32,10 +32,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -60,7 +61,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -84,10 +85,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -127,7 +129,7 @@ void (empty response body)
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -151,10 +153,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -178,7 +181,7 @@ void (empty response body)
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -202,10 +205,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -250,7 +254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -274,10 +278,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -302,7 +307,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -326,10 +331,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -356,7 +362,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -380,10 +386,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -408,7 +415,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -432,10 +439,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -459,7 +467,7 @@ void (empty response body)
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -483,10 +491,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -510,7 +519,7 @@ void (empty response body)
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -534,10 +543,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -562,7 +572,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 
@@ -586,10 +596,11 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure HTTP basic authorization: basic
+# Configure API key authorization: Bearer
 configuration = swagger_client.Configuration()
-configuration.username = 'YOUR_USERNAME'
-configuration.password = 'YOUR_PASSWORD'
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = swagger_client.TerminalSessionsApi(swagger_client.ApiClient(configuration))
@@ -616,7 +627,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[basic](../README.md#basic)
+[Bearer](../README.md#Bearer)
 
 ### HTTP request headers
 

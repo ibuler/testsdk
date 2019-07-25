@@ -130,7 +130,7 @@ class PermsUserGroupsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/user-groups/{id}/assets/', 'GET',
@@ -245,7 +245,7 @@ class PermsUserGroupsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/user-groups/{id}/nodes-assets/', 'GET',
@@ -368,7 +368,7 @@ class PermsUserGroupsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/user-groups/{id}/nodes/{node_id}/assets/', 'GET',
@@ -483,7 +483,7 @@ class PermsUserGroupsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/user-groups/{id}/nodes-assets/tree/', 'GET',
@@ -598,7 +598,7 @@ class PermsUserGroupsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/user-groups/{id}/nodes/', 'GET',
@@ -713,7 +713,7 @@ class PermsUserGroupsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/user-groups/{id}/nodes/tree/', 'GET',
@@ -820,7 +820,7 @@ class PermsUserGroupsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/user-groups/{id}/remote-apps/', 'GET',

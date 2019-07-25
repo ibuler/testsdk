@@ -106,7 +106,7 @@ class SettingsTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/settings/v1/terminal/command-storage/create/', 'POST',
@@ -197,7 +197,7 @@ class SettingsTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/settings/v1/terminal/command-storage/delete/', 'POST',
@@ -288,7 +288,7 @@ class SettingsTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/settings/v1/terminal/replay-storage/create/', 'POST',
@@ -379,7 +379,7 @@ class SettingsTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/settings/v1/terminal/replay-storage/delete/', 'POST',

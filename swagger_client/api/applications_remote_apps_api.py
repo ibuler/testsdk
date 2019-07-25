@@ -114,7 +114,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/{id}/connection-info/', 'GET',
@@ -213,7 +213,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/', 'POST',
@@ -316,7 +316,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/', 'DELETE',
@@ -415,7 +415,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/{id}/', 'DELETE',
@@ -526,7 +526,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/', 'GET',
@@ -625,7 +625,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/', 'PATCH',
@@ -732,7 +732,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/{id}/', 'PATCH',
@@ -831,7 +831,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/{id}/', 'GET',
@@ -930,7 +930,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/', 'PUT',
@@ -1037,7 +1037,7 @@ class ApplicationsRemoteAppsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/applications/v1/remote-apps/{id}/', 'PUT',

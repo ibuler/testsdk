@@ -122,7 +122,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/asset/add/', 'PATCH',
@@ -221,7 +221,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/asset/add/', 'GET',
@@ -328,7 +328,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/asset/add/', 'PUT',
@@ -435,7 +435,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/asset/remove/', 'PATCH',
@@ -534,7 +534,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/asset/remove/', 'GET',
@@ -641,7 +641,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/asset/remove/', 'PUT',
@@ -756,7 +756,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/assets/', 'GET',
@@ -855,7 +855,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/', 'POST',
@@ -954,7 +954,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/', 'DELETE',
@@ -1065,7 +1065,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/', 'GET',
@@ -1172,7 +1172,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/', 'PATCH',
@@ -1271,7 +1271,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/', 'GET',
@@ -1378,7 +1378,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/', 'PUT',
@@ -1469,7 +1469,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/user/actions/', 'GET',
@@ -1576,7 +1576,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/user/add/', 'PATCH',
@@ -1675,7 +1675,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/user/add/', 'GET',
@@ -1782,7 +1782,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/user/add/', 'PUT',
@@ -1889,7 +1889,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/user/remove/', 'PATCH',
@@ -1988,7 +1988,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/user/remove/', 'GET',
@@ -2095,7 +2095,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/{id}/user/remove/', 'PUT',
@@ -2186,7 +2186,7 @@ class PermsAssetPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/asset-permissions/user/validate/', 'GET',

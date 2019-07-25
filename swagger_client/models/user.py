@@ -614,8 +614,6 @@ class User(object):
         :param created_by: The created_by of this User.  # noqa: E501
         :type: str
         """
-        if created_by is not None and len(created_by) < 1:
-            raise ValueError("Invalid value for `created_by`, length must be greater than or equal to `1`")  # noqa: E501
 
         self._created_by = created_by
 

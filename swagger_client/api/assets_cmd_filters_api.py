@@ -114,7 +114,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/', 'POST',
@@ -217,7 +217,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/', 'DELETE',
@@ -316,7 +316,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{id}/', 'DELETE',
@@ -427,7 +427,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/', 'GET',
@@ -526,7 +526,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/', 'PATCH',
@@ -633,7 +633,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{id}/', 'PATCH',
@@ -732,7 +732,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{id}/', 'GET',
@@ -839,7 +839,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{filter_pk}/rules/', 'POST',
@@ -946,7 +946,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{filter_pk}/rules/{id}/', 'DELETE',
@@ -1065,7 +1065,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{filter_pk}/rules/', 'GET',
@@ -1180,7 +1180,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{filter_pk}/rules/{id}/', 'PATCH',
@@ -1287,7 +1287,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{filter_pk}/rules/{id}/', 'GET',
@@ -1402,7 +1402,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{filter_pk}/rules/{id}/', 'PUT',
@@ -1501,7 +1501,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/', 'PUT',
@@ -1608,7 +1608,7 @@ class AssetsCmdFiltersApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/assets/v1/cmd-filters/{id}/', 'PUT',

@@ -114,7 +114,7 @@ class OpsCommandExecutionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/command-executions/', 'POST',
@@ -213,7 +213,7 @@ class OpsCommandExecutionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/command-executions/{id}/', 'DELETE',
@@ -312,7 +312,7 @@ class OpsCommandExecutionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/command-executions/', 'GET',
@@ -419,7 +419,7 @@ class OpsCommandExecutionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/command-executions/{id}/', 'PATCH',
@@ -518,7 +518,7 @@ class OpsCommandExecutionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/command-executions/{id}/', 'GET',
@@ -625,7 +625,7 @@ class OpsCommandExecutionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/command-executions/{id}/', 'PUT',

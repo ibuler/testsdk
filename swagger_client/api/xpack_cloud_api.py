@@ -114,7 +114,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/', 'POST',
@@ -213,7 +213,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/', 'DELETE',
@@ -312,7 +312,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/{id}/', 'DELETE',
@@ -411,7 +411,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/', 'GET',
@@ -510,7 +510,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/', 'PATCH',
@@ -617,7 +617,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/{id}/', 'PATCH',
@@ -716,7 +716,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/{id}/', 'GET',
@@ -815,7 +815,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/', 'PUT',
@@ -922,7 +922,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/account/{id}/', 'PUT',
@@ -1013,7 +1013,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/get-instances/', 'GET',
@@ -1104,7 +1104,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/get-regions/', 'GET',
@@ -1203,7 +1203,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/', 'POST',
@@ -1302,7 +1302,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/', 'DELETE',
@@ -1401,7 +1401,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/{id}/', 'DELETE',
@@ -1500,7 +1500,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/', 'GET',
@@ -1599,7 +1599,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/', 'PATCH',
@@ -1706,7 +1706,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/{id}/', 'PATCH',
@@ -1805,7 +1805,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/{id}/', 'GET',
@@ -1904,7 +1904,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/{id}/run/', 'GET',
@@ -2003,7 +2003,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/', 'PUT',
@@ -2110,7 +2110,7 @@ class XpackCloudApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/xpack/v1/cloud/sync-instance-task/{id}/', 'PUT',

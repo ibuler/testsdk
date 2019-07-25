@@ -114,7 +114,7 @@ class AuditsFtpLogApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/audits/v1/ftp-log/', 'POST',
@@ -213,7 +213,7 @@ class AuditsFtpLogApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/audits/v1/ftp-log/{id}/', 'DELETE',
@@ -312,7 +312,7 @@ class AuditsFtpLogApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/audits/v1/ftp-log/', 'GET',
@@ -419,7 +419,7 @@ class AuditsFtpLogApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/audits/v1/ftp-log/{id}/', 'PATCH',
@@ -518,7 +518,7 @@ class AuditsFtpLogApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/audits/v1/ftp-log/{id}/', 'GET',
@@ -625,7 +625,7 @@ class AuditsFtpLogApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/audits/v1/ftp-log/{id}/', 'PUT',

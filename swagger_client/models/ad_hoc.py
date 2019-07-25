@@ -187,8 +187,6 @@ class AdHoc(object):
         """
         if run_as is not None and len(run_as) > 64:
             raise ValueError("Invalid value for `run_as`, length must be less than or equal to `64`")  # noqa: E501
-        if run_as is not None and len(run_as) < 1:
-            raise ValueError("Invalid value for `run_as`, length must be greater than or equal to `1`")  # noqa: E501
 
         self._run_as = run_as
 
@@ -212,8 +210,6 @@ class AdHoc(object):
         """
         if created_by is not None and len(created_by) > 64:
             raise ValueError("Invalid value for `created_by`, length must be less than or equal to `64`")  # noqa: E501
-        if created_by is not None and len(created_by) < 1:
-            raise ValueError("Invalid value for `created_by`, length must be greater than or equal to `1`")  # noqa: E501
 
         self._created_by = created_by
 

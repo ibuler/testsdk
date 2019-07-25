@@ -114,7 +114,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/access-key/', 'GET',
@@ -205,7 +205,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/config/', 'GET',
@@ -304,7 +304,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/', 'POST',
@@ -403,7 +403,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{id}/', 'DELETE',
@@ -502,7 +502,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/', 'GET',
@@ -609,7 +609,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{id}/', 'PATCH',
@@ -708,7 +708,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{id}/', 'GET',
@@ -815,7 +815,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/', 'POST',
@@ -950,7 +950,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/', 'DELETE',
@@ -1057,7 +1057,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/{id}/', 'DELETE',
@@ -1200,7 +1200,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/', 'GET',
@@ -1307,7 +1307,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/', 'PATCH',
@@ -1422,7 +1422,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/{id}/', 'PATCH',
@@ -1529,7 +1529,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/{id}/', 'GET',
@@ -1636,7 +1636,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/', 'PUT',
@@ -1751,7 +1751,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/sessions/{id}/', 'PUT',
@@ -1858,7 +1858,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/status/', 'POST',
@@ -1965,7 +1965,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/status/{id}/', 'DELETE',
@@ -2072,7 +2072,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/status/', 'GET',
@@ -2187,7 +2187,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/status/{id}/', 'PATCH',
@@ -2294,7 +2294,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/status/{id}/', 'GET',
@@ -2409,7 +2409,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{terminal}/status/{id}/', 'PUT',
@@ -2516,7 +2516,7 @@ class TerminalTerminalApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/terminal/v1/terminal/{id}/', 'PUT',

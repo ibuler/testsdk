@@ -114,7 +114,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/', 'POST',
@@ -213,7 +213,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/', 'DELETE',
@@ -324,7 +324,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/', 'GET',
@@ -431,7 +431,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/', 'PATCH',
@@ -530,7 +530,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/', 'GET',
@@ -637,7 +637,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/remote-app/add/', 'PATCH',
@@ -736,7 +736,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/remote-app/add/', 'GET',
@@ -843,7 +843,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/remote-app/add/', 'PUT',
@@ -950,7 +950,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/remote-app/remove/', 'PATCH',
@@ -1049,7 +1049,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/remote-app/remove/', 'GET',
@@ -1156,7 +1156,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/remote-app/remove/', 'PUT',
@@ -1263,7 +1263,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/', 'PUT',
@@ -1370,7 +1370,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/user/add/', 'PATCH',
@@ -1469,7 +1469,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/user/add/', 'GET',
@@ -1576,7 +1576,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/user/add/', 'PUT',
@@ -1683,7 +1683,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/user/remove/', 'PATCH',
@@ -1782,7 +1782,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/user/remove/', 'GET',
@@ -1889,7 +1889,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/{id}/user/remove/', 'PUT',
@@ -1980,7 +1980,7 @@ class PermsRemoteAppPermissionsApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/perms/v1/remote-app-permissions/user/validate/', 'GET',

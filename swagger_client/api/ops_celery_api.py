@@ -114,7 +114,7 @@ class OpsCeleryApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/celery/task/{id}/log/', 'GET',
@@ -213,7 +213,7 @@ class OpsCeleryApi(object):
             ['application/json', 'text/csv', '*/*'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['basic']  # noqa: E501
+        auth_settings = ['Bearer']  # noqa: E501
 
         return self.api_client.call_api(
             '/ops/v1/celery/task/{id}/result/', 'GET',
